@@ -11,6 +11,6 @@ conta=valor_casa/anos
 conta2=conta*30/100
 
 if conta2 > Salario:
-    print('nao e possivel pagar');
+    print('nao e possivel pagar')
 else:
     print('pode pagar')
