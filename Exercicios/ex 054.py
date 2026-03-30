@@ -34,4 +34,3 @@ elif menores == 0:
 
 else:
     print(f"{menores} pessoas sao menores de idade")
-

@@ -13,7 +13,6 @@ desconto = valor / 100 * 10
 desconto2 = valor / 100 * 5
 juros = valor * 20 / 100
 
-
 if n==1:
     print(f'Sua compra de {valor} vai custar {valor - desconto :.1f} no final')
 

@@ -3,7 +3,7 @@ from datetime import date
 print('ANALISE DE IDADE PARA ALISTAMENTO MILITAR')
 idade=int(input('Digite sua idade: '))
 ano_atual = date.today().year
-minimo=18
+minimo = 18
 nasc=ano_atual-idade
 
 if idade < minimo:
@@ -12,4 +12,3 @@ elif idade > minimo:
     print(f'Passou da idade doidao,Se alistou/devia se alistar a {idade - minimo} anos')
 elif idade == minimo:
     print('Esta na hora de se alistarkk')
-

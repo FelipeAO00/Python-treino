@@ -1,4 +1,3 @@
-
 print('Analisador de triangulos')
 x=int(input('Primeiro segmento: '))
 y=int(input('Segundo segmento: '))

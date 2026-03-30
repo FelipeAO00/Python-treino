@@ -1,4 +1,3 @@
-
 #Minha versao
 #n= (int(input('Digite um numero')))
 

@@ -1,0 +1,14 @@
+#Exercício Python 077: 
+#Crie um programa que tenha uma tupla com várias palavras (não usar acentos). 
+#Depois disso, você deve mostrar, para cada palavra, quais são as suas vogais.
+
+tuple = ("Aprender", "Programar", "Linguagem", "Python",
+         "Curso", "Gratis", "Estudar", "Praticar",
+         "Trabalhar", "Mercado", "Programador", "Futuro")
+
+for p in tuple:
+    print(f"\nNa palavra {p} temos ", end="")
+
+    for letra in p:
+        if letra.lower() in "aeiou":
+            print(letra.lower(), end=" ")

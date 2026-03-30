@@ -11,4 +11,3 @@ while run:
         run = False
     elif sexo != "M" or "F":
         print("dados invalidos, por favor, informe seu sexo novamente ")
-        

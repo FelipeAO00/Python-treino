@@ -28,4 +28,3 @@ elif 30 <= imc < 40 :
 
 elif imc >= 40 :
     print(f'Seu imc esta em {imc :.2f}, esta com obsidade morbida')
-

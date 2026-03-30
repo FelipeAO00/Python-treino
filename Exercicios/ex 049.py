@@ -10,11 +10,8 @@ for c in range(1, 11):
     # Mostra na tela: o número digitado, o símbolo 'x', o valor de (soma + c),
     # o sinal '=', e o resultado da multiplicação n * (soma + c
 
-
 '''
-
 num = int(input('Digite um numero para gerar sua tabuada '))
 for c in range(1, 11):
-        print(num, 'x', c, '=', num*c)
-        
+        print(num, 'x', c, '=', num*c)     
 '''

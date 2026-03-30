@@ -12,4 +12,3 @@ if palavra == inversor:
     print("A sua palavra e um palidromo")
 else:
     print(f"sua palavra {palavra} nao e um palindromo")
-

@@ -1,40 +1,4 @@
 #Exercício Python 060: Faça um programa que leia um número qualquer e mostre o seu fatorial.
-from math import factorial
-fac = int(input("Digite o numero para ser convertido em fatorial: "))
-print(f"O numero {fac}! em fatorial é {factorial(fac)}" )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 """
 # Usando While
 n1 = int(input('Digite um número para saber o fatorial: '))
@@ -57,3 +21,6 @@ from math import factorial
 n3 = int(input('Digite um número para saber o fatorial: '))
 print(f'O resultado de {n3}! é {factorial(n3)}')
 """ 
+from math import factorial
+fac = int(input("Digite o numero para ser convertido em fatorial: "))
+print(f"O numero {fac}! em fatorial é {factorial(fac)}" )

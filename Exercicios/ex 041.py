@@ -10,6 +10,3 @@ elif n <=25:
     print('voce esta na categoria Senior')
 elif n >25 :
     print('voce esta na categoria Master')
-
-
-
