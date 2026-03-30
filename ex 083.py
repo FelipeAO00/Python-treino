@@ -12,4 +12,4 @@ if "()" in lista:
     if "()"  %2 == 0:
         print("Expressão VALIDA! ")
     else:
-        print("Expressão INVALIDA! ")
+        print("Expressão INVALIDA! ") 
