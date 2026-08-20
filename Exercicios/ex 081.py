@@ -8,14 +8,25 @@ lista = []
 cont = 0
 while True:
     try:
-        n = int(input("Digite um numero: "))
-        lista.append(n)
-        s = str(input("Deseja continuar? [S/N] ")).strip().lower()
-    except ValueError:
-        print("Oe I A Oe I A A Oei A A A")
+        while True:
+            numero = int(input("Digite um numero: "))
+            lista.append(numero)
+            repetir = str(input("Deseja continuar? [S/N] ")).strip().lower()
 
-    if s == "n":
-        break
+            if repetir not in ["n","s"]:
+                print("Erro! Resposta invalida.\nDigite 'S' para continuar e 'N' para parar.")
+                print()
+
+            elif repetir == 'n':
+                print()
+                break
+        break           
+    except ValueError:
+            #print("Oe I A Oe I A A Oei A A A")
+            print("Algum valor invalido foi digitado. Tente novamente. ")
+            print()
+
+
 
 print(f"Total de numeros digitados {len(lista)}")
 

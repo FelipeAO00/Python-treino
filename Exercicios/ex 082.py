@@ -11,22 +11,29 @@ while True:
     try:
         n = int(input("Digite um numero: "))
         listaUm.append(n)
+
         if n % 2 == 0:
             listaP.append(n)
-            print()
             print("Adicionado a lista Par")
+
         else:
             listaI.append(n)
-            print()
             print("Adicionado a lista Impar")
-        print()
-        resp = str(input("Quer continuar [S/N]")).strip().lower()
-        print()
-        if resp == "n":
+
+        resp = str(input("Quer continuar [S/N] ")).strip().lower()
+
+        if resp not in ["n","s"]:
+            print("Digite apenas [S/N]. Tente novamente!")
+            print()
+
+        elif resp == "n":
             break
 
+
     except ValueError:
-        pass
+        print("Algum valor invalido foi digitado. Tente novamente. ")
+        print()
+
 
 print(f"A lista Completa é {listaUm}")
 print(f"A lista Par é {listaP}")
